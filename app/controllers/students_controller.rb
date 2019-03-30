@@ -1,5 +1,5 @@
 class StudentsController < ApplicationController
-  def students
+  def index
     binding.pry
     @students = Student.all
 
